@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+body {
+    background-size: auto;
+    background-color: #11a8ee;
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+    overflow: hidden;  
+    margin: 0 auto;
+    font-size: 3em;
+    font-weight: 800;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.bottom {
+    text-align: center;
+    color: white;
+    text-decoration: none !important;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.btn {
+    display: block;
+    align-items: right;
+    justify-content: right;
+    right: 15px;
+    top: 2%;
+    position: absolute;
+    padding: 0.4rem 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    backface-visibility: hidden;
+    border: 0.2rem solid white;
+    border-radius: 4rem;
+    transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+  }
+  
+  .btn:hover {
+    transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+  }
+
+  .btn2 {
+    display: inline-block;
+    align-items: right;
+    justify-content: right;
+    right: 150px;
+    top: 2%;
+    position: absolute;
+    padding: 0.4rem 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    backface-visibility: hidden;
+    border: 0.2rem solid white;
+    border-radius: 3rem;
+    transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+  }
+  
+  .btn2:hover {
+    transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+  }
